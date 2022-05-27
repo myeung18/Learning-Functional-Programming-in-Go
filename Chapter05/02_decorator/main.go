@@ -2,6 +2,8 @@ package main
 
 import (
 	"crypto/tls"
+	. "decorator.com/src/decorator"
+	"decorator.com/src/easy_metrics"
 	"flag"
 	"fmt"
 	"io/ioutil"
@@ -11,8 +13,6 @@ import (
 	"os"
 	"os/signal"
 	"time"
-	"easy_metrics"
-	. "decorator"
 )
 
 const  (

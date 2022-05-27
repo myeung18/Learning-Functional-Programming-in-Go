@@ -1,12 +1,12 @@
 package easy_metrics
 
 import (
+	"decorator.com/src/decorator"
 	"fmt"
+	"github.com/admobi/easy-metrics"
 	"math/rand"
 	"net/http"
 	"time"
-	"github.com/admobi/easy-metrics"
-	"decorator"
 )
 
 var (
